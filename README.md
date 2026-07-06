@@ -1,8 +1,8 @@
 <div align="center">
 
-# Claude Code — Leaked Source
+# Claude Code
 
-**The full source code of Anthropic's Claude Code CLI, leaked on March 31, 2026**
+**The full source code of Anthropic's Claude Code CLI, March 31, 2026**
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-512K%2B_lines-3178C6?logo=typescript&logoColor=white)](#tech-stack)
 [![Bun](https://img.shields.io/badge/Runtime-Bun-f472b6?logo=bun&logoColor=white)](#tech-stack)
@@ -11,7 +11,7 @@
 [![MCP Server](https://img.shields.io/badge/MCP-Explorer_Server-blueviolet)](#-explore-with-mcp-server)
 [![npm](https://img.shields.io/npm/v/warrioraashuu-codemaster?label=npm&color=cb3837&logo=npm)](https://www.npmjs.com/package/warrioraashuu-codemaster)
 
-> The original unmodified leaked source is preserved in the [`backup` branch](https://github.com/codeaashu/claude-code/tree/backup).
+> The original source is preserved in the [`backup` branch](https://github.com/codeaashu/claude-code/tree/backup).
 
 </div>
 
@@ -39,14 +39,6 @@
 - [Disclaimer](#disclaimer)
 
 ---
-
-## How It Leaked
-
-[Chaofan Shou (@Fried_rice)](https://x.com/Fried_rice) discovered that the published npm package for Claude Code included a `.map` file referencing the full, unobfuscated TypeScript source — downloadable as a zip from Anthropic's R2 storage bucket.
-
-> **"Claude code source code has been leaked via a map file in their npm registry!"**
->
-> — [@Fried_rice, March 31, 2026](https://x.com/Fried_rice/status/2038894956459290963)
 
 ---
 
@@ -438,10 +430,6 @@ Contributions to documentation, the MCP server, and exploration tooling are welc
 
 > **Note:** The `src/` directory is the original leaked source and should not be modified.
 
----
-
-## Disclaimer
-
-This repository archives source code leaked from Anthropic's npm registry on **2026-03-31**. All original source code is the property of [Anthropic](https://www.anthropic.com). This is not an official release and is not licensed for redistribution. Contact [aashuu ✦](https://x.com/warrioraashuu) for any comments.
+```
 
 
